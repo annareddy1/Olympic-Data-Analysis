@@ -20,15 +20,15 @@ The data set including duplicate athlete names contains 206165 entries. There ar
 For the specific question, I aimed to assess whether age and BMI could serve as predictors for an athlete's likelihood of winning a medal. The relevant parameters included Team, Sport, Name, Age, Age_Category, BMI, BMI_Category, and Medal_Num. The null hypothesis assumed that age and BMI do not have a significant impact on winning a medal, the alternative hypothesis assumed a significant relationship between age and BMI. We used regression analysis, using the PROC REG procedure in SAS, to model the dependent variable 'total_won' against the independent variables Age and BMI. We will also check if interaction term is needed in similar fashion.
 
 #### Results
-<img src="/28C355AB-42DB-4B68-B6E1-57857CF740EA.jpeg" width="300" height="300">
+<img src="/28C355AB-42DB-4B68-B6E1-57857CF740EA.jpeg" width="400" height="300">
 
-<img src="/602208E4-9CBC-476F-9489-ADAD0BCF2021.jpeg" width="300" height="300">
+<img src="/602208E4-9CBC-476F-9489-ADAD0BCF2021.jpeg" width="400" height="300">
 
-<img src="/CBA9634A-B4D7-4AE0-98C3-55C4822D5CC1.jpeg" width="300" height="300">
+<img src="/CBA9634A-B4D7-4AE0-98C3-55C4822D5CC1.jpeg" width="400" height="300">
 
-<img src="/C2772F4E-C279-4D53-8170-64DCC5F50CC6.jpeg" width="300" height="300">
+<img src="/C2772F4E-C279-4D53-8170-64DCC5F50CC6.jpeg" width="400" height="300">
 
-<img src="/D17A2474-7032-45EE-AE20-C55609F1F070.jpeg" width="300" height="300">
+<img src="/D17A2474-7032-45EE-AE20-C55609F1F070.jpeg" width="400" height="300">
 
 The results revealed a significant relationship between Age, BMI, and the chances of winning a medal. The scatter plot illustrated a clear trend, indicating that athletes with certain age and BMI categories had higher chances of winning medals. The regression analysis further supported these findings, with both Age and BMI showing statistically significant coefficients with p values less than 0.01. Athletes in specific age and BMI categories demonstrated variations in their total medal wins. The r squared with interaction term is 0.1 and the r squared with main effects only is 0.08. If the model with the interaction term has a higher r squared, it suggests that including interactions improves the model's ability to
 explain the variance in the dependent variable but only slightly.
